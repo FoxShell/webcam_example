@@ -1,7 +1,13 @@
 * call this file at start of application, or before start using kodnet
 do (getenv("Userprofile") + "\kawix\shide.lib\kodnet\kodnet.prg")
 
+
+
 localpath = justpath(sys(16))
+IF EMPTY(m.localpath)
+	* started from EXE
+	localpath = justpath(_vfp.ServerName )
+ENDIF 
 _screen.kodnetmanager.initUi()
 
 
