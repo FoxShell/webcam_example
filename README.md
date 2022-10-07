@@ -1,11 +1,12 @@
 # webcam_example
-Preview webcam from VFP9/VFPA with [kodnet](https://github.com/FoxShell/kodnet) and take screenshot
 
-This example demonstrates how add Visual Controls from .NET to VFP using [kodnet](https://github.com/FoxShell/kodnet)
+Preview webcam from VFP9/VFPA (maybe VFP8, not tested) with [kodnet](https://github.com/FoxShell/kodnet) and take screenshot
+
+This example demonstrates how add Visual Controls from .NET to VFP using [kodnet](https://github.com/FoxShell/kodnet) (version 3.0.2 or superior)
 
 ## How add controls from .NET to VFP with kodnet?
 
-- Copy the files: ```%userprofile\%Kawix\Shide.lib\kodnet\dotnet4.vcx``` and ```%userprofile\%Kawix\Shide.lib\kodnet\dotnet4.vct```
+- Copy the files: ```%userprofile%\KwRuntime\kodnet\dotnet4.vcx``` and ```%userprofile%\KwRuntime\kodnet\dotnet4.vct``` to your project.
 
 - Set the propery ```dotnetClassName``` to .NET full class name
 

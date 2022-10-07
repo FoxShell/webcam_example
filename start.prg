@@ -1,7 +1,8 @@
 * call this file at start of application, or before start using kodnet
-do (getenv("Userprofile") + "\kawix\shide.lib\kodnet\kodnet.prg")
+do (getenv("Userprofile") + "\kwruntime\kodnet\loader.prg")
 
-
+* THIS EXAMPLE WORKS WITH .NET FRAMEWORK 4.5+
+_screen.kodnetloader.load("v4")
 
 localpath = justpath(sys(16))
 IF EMPTY(m.localpath)
